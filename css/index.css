@@ -15,6 +15,7 @@ h2 {
 .links {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .one-link {
