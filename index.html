@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adi Malka</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" href="./image/codeTag.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Ben Nahum</h1>
+
+    <div class="links">
+        <div class="one-link" id="resume">
+            <h3>My Resume</h3>
+            <a href="./documents/Adi MAlka.pdf" target="_blank" rel="noopener"><img src="./image/cv.png"
+                    alt="resume-logo"></a>
+        </div>
+        <!-- <div class="one-link" id="linkedin">
+            <h3>linkedin</h3>
+            <a href="https://www.linkedin.com/in/ben-nahum-5039331b4/" target="_blank" rel="noopener"><img
+                    src="./image/linkedin.png" alt="linedin-logo"></a>
+        </div>
+        <div class="one-link" id="gitHub">
+            <h3>GitHub</h3>
+            <a href="https://github.com/BenNahum6" target="_blank" rel="noopener"><img src="./image/github.png"
+                    alt="gitHub-logo"></a>
+        </div> -->
+    </div>
+
+    <h2>Get in touch</h2>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class='demopadding'>
+        <div class="tooltip">
+            <span class="tooltiptext">Phone</span>
+            <div class='icon social ph'><a href="tel:%00054-735-3593"><i class='fa fa-phone'></i></a></div>
+        </div>
+        <div class="tooltip">
+            <span class="tooltiptext">Mail</span>
+            <div class='icon social gl'><a href="mailto:adimalka1233@gmail.com"><i class='fa fa-google'></i></a></div>
+        </div>
+    </div>
+
+    <div class="button_place">
+        <button onclick="toggleLog(this)">Dark mode</button>
+        <script>/**/
+            let bWriteLog = true;
+            function toggleLog(elt) {
+                bWriteLog = !bWriteLog;
+                elt.innerHTML = bWriteLog ? 'Dark mode' : 'Light mode';
+
+                let element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </div>
+
+</body>
+
+</html>
