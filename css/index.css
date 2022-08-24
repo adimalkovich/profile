@@ -15,11 +15,10 @@ h2 {
 .links {
     display: flex;
     flex-direction: row;
-    margin-left: 50%;
 }
 
 .one-link {
-    margin-left: 7%;
+    margin-left: 50%;
     text-align: center;
 }
 
