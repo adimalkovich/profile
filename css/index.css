@@ -69,16 +69,10 @@ img {
 
 .icon.social:hover {
     background: white;
-    /*hover color*/
     transition: 0.5s;
     -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
-    /*-webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));*/
-    /*-moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));*/
-    /*-ms-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));*/
-    /*-o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));*/
-    /*filter: 			drop-shadow(0 1px 10px rgba(0,0,0,.8));*/
 }
 
 .icon.social.ph i {
