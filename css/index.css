@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: pink;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h2 {
 }
 
 .one-link {
-    margin-left: 50%;
+    align-items: center;
     text-align: center;
 }
 
@@ -42,10 +42,6 @@ img {
     width: 20px;
     height: 20px;
     padding: 20px;
-    /*border-top-right-radius: 	20px;*/
-    /*border-top-left-radius: 	20px;*/
-    /*border-bottom-right-radius: 20px;*/
-    /*border-bottom-left-radius: 	20px;*/
     -moz-border-radius: 20px 20px 20px 20px;
     -webkit-border-radius: 20px 20px 20px 20px;
 }
