@@ -11,6 +11,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 /*start links to my cv linkedin and github*/
 .links {
     display: flex;
