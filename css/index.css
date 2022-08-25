@@ -19,12 +19,11 @@ h2 {
 .links {
     display: flex;
     flex-direction: row;
-    margin-left: 30%;
 }
 
 .one-link {
     text-align: center;
-    /* margin-left: 30%; */
+    margin-left: 20%;
 }
 
 .grade{
